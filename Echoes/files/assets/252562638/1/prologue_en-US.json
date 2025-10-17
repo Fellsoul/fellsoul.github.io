@@ -1,0 +1,277 @@
+{
+  "welcome": {
+    "typeLines": [
+      {
+        "text": "Long ago—\nTwo-legged thinkers walked the earth, called \"humans.\"",
+        "bold": true,
+        "clear": true,
+        "size": 40,
+        "imageName": "prologue_welcome_1.png",
+        "clearImage": true
+      },
+      {
+        "text": "They had food, roofs, and companions;\nAbundance at the chest softened into a warm beam called \"happiness.\"",
+        "clear": true,
+        "imageName": "prologue_welcome_2.png",
+        "clearImage": true
+      },
+      {
+        "text": "When a sincere smile rippled from the heart,\nwe—the seeds of the Key-Heart—took root in silence.",
+        "clear": true,
+        "imageName": "prologue_welcome_3.png",
+        "clearImage": true
+      },
+      {
+        "text": "We drank their joy and grew;\nThe brighter the heart, the faster we rose.",
+        "clear": true,
+        "imageName": "prologue_welcome_4.png",
+        "clearImage": true
+      },
+      {
+        "text": "Yet the wind of the age\nblew feelings to a \"pale\" hue.",
+        "clear": true,
+        "color": "#666666",
+        "imageName": "prologue_welcome_5.png",
+        "clearImage": true
+      },
+      {
+        "text": "\"Pale\"—the plainness of days,\nand the sweetness on our tongues turning \"faint.\"",
+        "clear": true,
+        "color": "#666666",
+        "size": 30,
+        "imageName": "prologue_welcome_5.png",
+        "clearImage": false
+      },
+      {
+        "text": "Study, work, life—\nIn their mouths these outweighed \"happiness.\"",
+        "clear": true,
+        "color": "#000000",
+        "size": 42,
+        "imageName": "prologue_welcome_6.png",
+        "clearImage": true
+      },
+      {
+        "text": "Layer upon layer of weight\nat last kindled the inescapable blaze.",
+        "clear": true,
+        "imageName": "prologue_welcome_7.png",
+        "clearImage": true
+      },
+      {
+        "text": "Upon the ash that followed,\nsurvivors vowed to rebuild a home for joy.",
+        "clear": true,
+        "imageName": "prologue_welcome_8.png",
+        "clearImage": true
+      },
+      {
+        "text": "And we sprites, diving into the heart-sea,\nwent searching for the long-buried key.",
+        "clear": true,
+        "imageName": "prologue_welcome_9.png",
+        "clearImage": true
+      },
+      {
+        "text": "Now you—newborn sprites—\nwill go to unlock more of humankind’s",
+        "bold": true,
+        "clear": true,
+        "size": 60,
+        "imageName": "prologue_welcome_10.png",
+        "clearImage": true
+      },
+      {
+        "text": "H E A R T ’ S   L O C K S",
+        "clear": true,
+        "bold": true,
+        "size": 120,
+        "color": "#000000",
+        "imageName": "prologue_welcome_10.png",
+        "clearImage": false
+      }
+    ]
+  },
+  "ethanShell": {
+    "typeLines": [
+      {
+        "text": "Ethan’s Wind · Shell—\nAt nine, reliability rests upon his brow.",
+        "bold": true,
+        "clear": true,
+        "size": 40,
+        "imageName": "prologue_shell_1.png",
+        "clearImage": true
+      },
+      {
+        "text": "Morning grass slopes and wooden bridges—\nwhere his stride and courage are trained.",
+        "clear": true,
+        "imageName": "prologue_shell_2.png",
+        "clearImage": true
+      },
+      {
+        "text": "He hauls wood, feeds sheep, mends windmills—\npacking every “must-do” into his pocket.",
+        "clear": true,
+        "imageName": "prologue_shell_3.png",
+        "clearImage": true
+      },
+      {
+        "text": "Wind comes from the valley\nand turns his small heartbeat into drums.",
+        "clear": true,
+        "imageName": "prologue_shell_4.png",
+        "clearImage": true
+      },
+      {
+        "text": "Outwardly—steady, dutiful, always running ahead;\nYet the true destination lies deeper in the wind.",
+        "clear": true,
+        "imageName": "prologue_shell_5.png",
+        "clearImage": true
+      }
+    ]
+  },
+  "ethanShellOptions": {
+    "defaultCharMs": 50,
+    "lineGapMs": 2000,
+    "bgHexColor": "#FCFBDB",
+    "bgFadeOutMs": 1000,
+    "autoFadeOut": true
+  },
+  "ethanMind": {
+    "typeLines": [
+      {
+        "text": "Ethan’s Wind · Mind—\nWind brushes the ear; thoughts begin to web.",
+        "bold": true,
+        "clear": true,
+        "size": 40,
+        "imageName": "prologue_mind_1.png",
+        "clearImage": true
+      },
+      {
+        "text": "“Be a bit more reliable,”\nhe whispers to himself, adding one more weight.",
+        "clear": true,
+        "imageName": "prologue_mind_2.png",
+        "clearImage": true
+      },
+      {
+        "text": "School, chores, promises hang like rows of chimes—\nEach ring is an echo of responsibility.",
+        "clear": true,
+        "imageName": "prologue_mind_3.png",
+        "clearImage": true
+      },
+      {
+        "text": "But when he recalls his mother’s silence,\nthe wind skips half a beat.",
+        "clear": true,
+        "color": "#666666",
+        "imageName": "prologue_mind_4.png",
+        "clearImage": true
+      },
+      {
+        "text": "He tells himself:\n“Care for everyone first—then wait for her to speak.”",
+        "clear": true,
+        "imageName": "prologue_mind_5.png",
+        "clearImage": true
+      },
+      {
+        "text": "That thought—folded neatly by the wind—\nis tucked against his chest.",
+        "clear": true,
+        "imageName": "prologue_mind_6.png",
+        "clearImage": true
+      }
+    ]
+  },
+  "ethanMindOptions": {
+    "defaultCharMs": 50,
+    "lineGapMs": 2000,
+    "bgHexColor": "#FCFBDB",
+    "bgFadeOutMs": 1000,
+    "autoFadeOut": true
+  },
+  "ethanSoul": {
+    "typeLines": [
+      {
+        "text": "Ethan’s Wind · Soul—\nRidges steeper; cloud-shadows nearer.",
+        "bold": true,
+        "clear": true,
+        "size": 40,
+        "imageName": "prologue_soul_1.png",
+        "clearImage": true
+      },
+      {
+        "text": "An unremembered accident, like a veiled mountain path—\nOnly pebbles press lightly at the sole.",
+        "clear": true,
+        "imageName": "prologue_soul_2.png",
+        "clearImage": true
+      },
+      {
+        "text": "He chases a beam no one sees—\nand is chased by a wind of misunderstanding.",
+        "clear": true,
+        "imageName": "prologue_soul_3.png",
+        "clearImage": true
+      },
+      {
+        "text": "“Don’t let the wind answer for me.”\nTeeth set, he leaps from a broken bridge to the next cloud.",
+        "clear": true,
+        "imageName": "prologue_soul_4.png",
+        "clearImage": true
+      },
+      {
+        "text": "One step more—\nand the outline of the heart-door will show upon the wind.",
+        "clear": true,
+        "imageName": "prologue_soul_5.png",
+        "clearImage": true
+      }
+    ]
+  },
+  "ethanSoulOptions": {
+    "defaultCharMs": 50,
+    "lineGapMs": 2000,
+    "bgHexColor": "#FCFBDB",
+    "bgFadeOutMs": 1000,
+    "autoFadeOut": true
+  },
+  "ethanSelf": {
+    "typeLines": [
+      {
+        "text": "Ethan’s Wind · Self—\nWhere the wind calms, a lamp lights the greenhouse.",
+        "bold": true,
+        "clear": true,
+        "size": 40,
+        "imageName": "prologue_self_1.png",
+        "clearImage": true
+      },
+      {
+        "text": "Wooden top, paper plane, the corner of a portrait—\nEach returns to where it belongs.",
+        "clear": true,
+        "imageName": "prologue_self_2.png",
+        "clearImage": true
+      },
+      {
+        "text": "“Mom will get better,” he says—\nlike easing a key into the lock.",
+        "clear": true,
+        "imageName": "prologue_self_3.png",
+        "clearImage": true
+      },
+      {
+        "text": "When the embrace arrives, color flows back;\nThe wind no longer howls—only sings upon the eaves.",
+        "clear": true,
+        "imageName": "prologue_self_4.png",
+        "clearImage": true
+      },
+      {
+        "text": "And he understands:\nReliability isn’t bearing all things—it's learning to walk with the wind.",
+        "clear": true,
+        "imageName": "prologue_self_5.png",
+        "clearImage": true
+      }
+    ]
+  },
+  "ethanSelfOptions": {
+    "defaultCharMs": 50,
+    "lineGapMs": 2000,
+    "bgHexColor": "#FCFBDB",
+    "bgFadeOutMs": 1000,
+    "autoFadeOut": true
+  },
+  "welcomeOptions": {
+    "defaultCharMs": 140,
+    "lineGapMs": 2000,
+    "enableDebugLog": false,
+    "bgHexColor": "#FCFBDB",
+    "bgFadeOutMs": 1000,
+    "autoFadeOut": true
+  }
+}

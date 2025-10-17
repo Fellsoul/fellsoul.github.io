@@ -1,0 +1,53 @@
+{
+  "story.chapter1.title": {
+    "color": "#FFD700",
+    "outlineColor": "#8B4513",
+    "outlineThickness": 0.3,
+    "fontSize": 72,
+    "duration": 2.0,
+    "fadeIn": 0.3,
+    "fadeOutDelay": 1.5,
+    "fadeOut": 0.6,
+    "yRise": 10,
+    "floatAmplitude": 5,
+    "floatSpeed": 2.5,
+    "offsetX": 0,
+    "offsetY": 50,
+    "letterSpacing": 6,
+    "splitMode": "char"
+  },
+  "level.ethans_wind.outer": {
+    "color": "#87CEEB",
+    "outlineColor": "#1E90FF",
+    "outlineThickness": 0.4,
+    "fontSize": 64,
+    "duration": 1.8,
+    "fadeIn": 0.25,
+    "fadeOutDelay": 1.2,
+    "fadeOut": 0.5,
+    "yRise": 8,
+    "floatAmplitude": 4,
+    "floatSpeed": 2.0,
+    "offsetX": 0,
+    "offsetY": 0,
+    "letterSpacing": 4,
+    "splitMode": "char"
+  },
+  "village.entrance": {
+    "color": "#90EE90",
+    "outlineColor": "#228B22",
+    "outlineThickness": 0.25,
+    "fontSize": 56,
+    "duration": 1.5,
+    "fadeIn": 0.2,
+    "fadeOutDelay": 1.0,
+    "fadeOut": 0.4,
+    "yRise": 6,
+    "floatAmplitude": 3,
+    "floatSpeed": 1.8,
+    "offsetX": 0,
+    "offsetY": -20,
+    "letterSpacing": 3,
+    "splitMode": "char"
+  }
+}

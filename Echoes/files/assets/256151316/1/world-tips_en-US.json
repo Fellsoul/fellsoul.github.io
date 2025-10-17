@@ -1,0 +1,85 @@
+{
+  "level": {
+    "ethans_wind": {
+      "entrance": {
+        "welcome": "Welcome to Ethan's Wind",
+        "explore": "Explore this mysterious land"
+      },
+      "shell": {
+        "grass_slopes": "Breeze caresses the grass slopes",
+        "steady_steps": "Steady steps forward",
+        "wind_guide": "Let the wind guide your way"
+      },
+      "mind": {
+        "wind_thoughts": "Thoughts surge when wind rises",
+        "reliable_pocket": "Keep reliability in your pocket",
+        "inner_strength": "The strength within"
+      },
+      "soul": {
+        "wind_back": "Standing on the back of the gale",
+        "own_voice": "Answer with your own voice",
+        "soul_freedom": "Freedom of the soul"
+      },
+      "self": {
+        "greenhouse": "Echoes in the greenhouse",
+        "walk_with_wind": "Walk alongside the wind",
+        "find_self": "Find your true self"
+      }
+    },
+    "mind_shore": {
+      "entrance": {
+        "peaceful": "The shore of the mind",
+        "reflection": "A place for quiet reflection"
+      },
+      "sanctuary": {
+        "safe_haven": "A safe haven",
+        "inner_peace": "Inner tranquility",
+        "soul_rest": "Resting place for the soul"
+      }
+    }
+  },
+  "interaction": {
+    "examine": {
+      "ancient_stone": "Ancient stone",
+      "mysterious_symbol": "Mysterious symbol",
+      "forgotten_memory": "Forgotten memory"
+    },
+    "collect": {
+      "wind_essence": "Wind essence",
+      "memory_fragment": "Memory fragment",
+      "soul_crystal": "Soul crystal"
+    }
+  },
+  "environment": {
+    "weather": {
+      "gentle_breeze": "Gentle breeze",
+      "strong_wind": "Strong wind howling",
+      "calm_air": "Air is calm"
+    },
+    "atmosphere": {
+      "mystical": "Mystical atmosphere",
+      "peaceful": "Peaceful and serene",
+      "energetic": "Full of energy"
+    }
+  },
+  "tutorial": {
+    "movement": {
+      "wasd": "Use WASD to move",
+      "mouse_look": "Mouse to look around",
+      "space_jump": "Space to jump",
+      "combination_pc": "WASD Move   Hold-Shift Run   Mouse Look   Space Jump",
+      "combination_mobile": "Joystick Move   Drag Screen   Right Button Jump"
+    },
+    "interaction": {
+      "g_respawn_pc": "Press G: Back to latest checking point",
+      "g_respawn_mobile": "Press respawn button：Back to latest checking point",
+      "f_interact": "Press G/Respawn button to interact",
+      "examine_objects": "Examine objects",
+      "collect_items": "Collect items"
+    },
+    "hints": {
+      "climb_up": "Climb, till ''self''",
+      "stay_focus": "Stay focus"
+    }
+  }
+}

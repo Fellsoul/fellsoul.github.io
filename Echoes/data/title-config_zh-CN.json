@@ -1,0 +1,36 @@
+{
+  "level.mind_shore.entrance": {
+    "color": "#FDB813",
+    "outlineColor": "#8B4513",
+    "outlineThickness": 0.4,
+    "fontSize": 68,
+    "duration": 2.2,
+    "fadeIn": 0.35,
+    "fadeOutDelay": 1.8,
+    "fadeOut": 0.7,
+    "yRise": 12,
+    "floatAmplitude": 6,
+    "floatSpeed": 2.2,
+    "offsetX": 0,
+    "offsetY": 30,
+    "letterSpacing": 8,
+    "splitMode": "char"
+  },
+  "level.ethans_wind.outer": {
+    "color": "#87CEEB",
+    "outlineColor": "#1E90FF",
+    "outlineThickness": 0.4,
+    "fontSize": 64,
+    "duration": 1.8,
+    "fadeIn": 0.25,
+    "fadeOutDelay": 1.2,
+    "fadeOut": 0.5,
+    "yRise": 8,
+    "floatAmplitude": 4,
+    "floatSpeed": 2.0,
+    "offsetX": 0,
+    "offsetY": 0,
+    "letterSpacing": 4,
+    "splitMode": "char"
+  }
+}

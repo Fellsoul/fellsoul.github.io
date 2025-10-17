@@ -1,0 +1,62 @@
+{
+  "Start": {
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "description": "开始场景出生点"
+  },
+  "Queen": {
+    "x": 14.35,
+    "y": 14.35,
+    "z": 26,
+    "description": "主场景出生点"
+  },
+  "level1": {
+    "x": -2,
+    "y": 0,
+    "z": 5,
+    "description": "关卡1出生点"
+  },
+  "level2": {
+    "x": 3,
+    "y": 0,
+    "z": -2,
+    "description": "关卡2出生点"
+  },
+  "level3": {
+    "x": 0,
+    "y": 0,
+    "z": 8,
+    "description": "关卡3出生点"
+  },
+  "level4": {
+    "x": -5,
+    "y": 0,
+    "z": 0,
+    "description": "关卡4出生点"
+  },
+  "inroomquiet": {
+    "x": 0,
+    "y": 0,
+    "z": 3,
+    "description": "安静房间出生点"
+  },
+  "inroomechoing": {
+    "x": 2,
+    "y": 0,
+    "z": 0,
+    "description": "回声房间出生点"
+  },
+  "village": {
+    "x": -3,
+    "y": 0,
+    "z": 4,
+    "description": "村庄出生点"
+  },
+  "nymphqueen": {
+    "x": 0,
+    "y": 0,
+    "z": -3,
+    "description": "精灵女王出生点"
+  }
+}

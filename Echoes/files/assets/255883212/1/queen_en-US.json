@@ -1,0 +1,209 @@
+{
+    "start": "intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "speaker": "queen_elera",
+        "text": "Welcome to the realm of sprites… child of the sunflower.",
+        "onEnter": [
+          { "name": "playSfx", "args": ["ui","blip"] },
+          { "name": "fadeInBgm", "args": ["garden_theme", 1.5] }
+        ],
+        "outs": [
+          { "text": "Who are you? Where am I?", "to": "who_where" },
+          { "text": "What… is my name?", "to": "name_give" },
+          { "text": "I’m ready.", "to": "mission_pitch" }
+        ]
+      },
+      {
+        "id": "who_where",
+        "speaker": "queen_elera",
+        "text": "I am Elera, Queen of the Key-Heart Sprites. This is my garden—the threshold where sprites are born.",
+        "outs": [
+          { "text": "Then where did I come from?", "to": "origin_sunflower" },
+          { "text": "What is a sprite’s duty?", "to": "duty" }
+        ],
+        "onExit":[
+          { "name": "learnNpcName", "args": ["queen_elera", "艾拉女王"] }
+        ]
+      },
+      {
+        "id": "origin_sunflower",
+        "speaker": "queen_elera",
+        "text": "When a human first awakens to emotion, a seed takes root in the Heart. A sunflower bloomed for you—and lit your name.",
+        "outs": [
+          { "text": "My name…", "to": "name_give" },
+          { "text": "What should I do?", "to": "mission_pitch" }
+        ]
+      },
+      {
+        "id": "name_give",
+        "speaker": "queen_elera",
+        "text": "From this day, you are Lyra. Like a gentle melody that brings harmony.",
+        "onExit": [
+          { "name": "setFlag", "args": ["named_lyra", true] },
+          { "name": "playSfx", "args": ["ui","chime"] }
+        ],
+        "outs": [
+          { "text": "Thank you, Your Majesty.", "to": "duty" },
+          { "text": "May I learn more about our world?", "to": "about_world" }
+        ]
+      },
+      {
+        "id": "about_world",
+        "speaker": "queen_elera",
+        "text": "A human’s Heart is a star wrapped in shells of wind: Shell, Spirit, Soul—at the core dwells the Self.",
+        "outs": [
+          { "text": "How do we enter their Heart?", "to": "how_enter" },
+          { "text": "What happens when the Self is hurt?", "to": "about_self" }
+        ]
+      },
+      {
+        "id": "how_enter",
+        "speaker": "queen_elera",
+        "text": "To our eyes, every human bears a vortex at the chest. Find their ‘Nian’—a cherished intent—and turn it into a key to open the heart-door.",
+        "outs": [
+          { "text": "What is ‘Nian’ exactly?", "to": "about_nian" },
+          { "text": "I’d like to try.", "to": "mission_pitch" }
+        ]
+      },
+      {
+        "id": "about_self",
+        "speaker": "queen_elera",
+        "text": "When the Self is sealed, it becomes a hollow shell. When Nian returns, the crust falls and color returns—people see the world anew.",
+        "outs": [
+          { "text": "How can I help?", "to": "mission_pitch" }
+        ]
+      },
+      {
+        "id": "about_nian",
+        "speaker": "queen_elera",
+        "text": "Nian is what one cannot forget—an attachment, a desire. Touch it to glimpse memory. Bring it back to the hollow Self, and the shell will shed.",
+        "outs": [
+          { "text": "I’m ready.", "to": "mission_pitch" },
+          { "text": "Anything I should be careful about?", "to": "caution" }
+        ]
+      },
+      {
+        "id": "caution",
+        "speaker": "queen_elera",
+        "text": "Remember: healing isn’t expelling emotion—it’s giving it a place. Do not let power or craft cross the threshold.",
+        "outs": [
+          { "text": "I’ll keep that in mind.", "to": "mission_pitch" }
+        ]
+      },
+      {
+        "id": "duty",
+        "speaker": "queen_elera",
+        "text": "Sprites are nourished by human joy, and taught by their pain. Your necklace can briefly store Nian—use it wisely.",
+        "outs": [
+          { "text": "Please give me my first task.", "to": "mission_pitch" },
+          { "text": "I want to look around the garden.", "to": "end" }
+        ]
+      },
+      {
+        "id": "mission_pitch",
+        "speaker": "queen_elera",
+        "text": "Go to the portal in your front. A child named Ethan lives there; his mother, Fiona, has been silent for years. Help him first—then understand her.",
+        "onExit": [
+          { "name": "setQuestStage", "args": ["main_ethan", 1] },
+          { "name": "addMapMarker", "args": ["village", "Whispering Village"] }
+        ],
+        "outs": [
+          { "text": "I’m on my way.", "to": "sendoff" },
+          { "text": "Any hints about them?", "to": "hint_family" }
+        ]
+      },
+      {
+        "id": "hint_family",
+        "speaker": "queen_elera",
+        "text": "The wind carries answers—and noise. Don’t be deceived by tales of a ‘curse’. Listen to their heartbeats and the chimes.",
+        "outs": [
+          { "text": "I’ll listen closely.", "to": "sendoff" }
+        ]
+      },
+      {
+        "id": "sendoff",
+        "speaker": "queen_elera",
+        "text": "May the sunflower light your way home. If you feel lost, return to the garden and find me.",
+        "onExit": [
+          { "name": "playSfx", "args": ["ui","confirm"] },
+          { "name": "giveItem", "args": ["sun_petal", 1] }
+        ],
+        "outs": [
+          { "text": "Until we meet again.", "to": "end" }
+        ]
+      },
+      {
+        "id": "branch_return",
+        "type": "auto",
+        "outs": [
+          { "to": "return_first", "when": [ { "name": "flag", "args": ["main_ethan_completed"] } ] },
+          { "to": "return_mid", "when": [ { "name": "questStageAtLeast", "args": ["main_ethan", 1] } ] },
+          { "to": "intro" }
+        ]
+      },
+      {
+        "id": "return_mid",
+        "speaker": "queen_elera",
+        "text": "Well done, Lyra. Have you heard the hesitation inside the wind? Follow that line of sound…",
+        "outs": [
+          { "text": "I need guidance.", "to": "hint_rowan" },
+          { "text": "I’ll continue.", "to": "end" }
+        ]
+      },
+      {
+        "id": "hint_rowan",
+        "speaker": "queen_elera",
+        "text": "Find Rowan. There’s the rustle of paper in his silence—piece those pages together and the wind will speak.",
+        "onExit": [
+          { "name": "setQuestStage", "args": ["rowan_truth", 1] }
+        ],
+        "outs": [
+          { "text": "Understood.", "to": "end" }
+        ]
+      },
+      {
+        "id": "return_first",
+        "speaker": "queen_elera",
+        "text": "You returned Nian to the hollow—good. Next, don’t judge; give sorrow a place as well.",
+        "outs": [
+          { "text": "You mean the blue sprite?", "to": "blue_hint" },
+          { "text": "I’ll remember the threshold.", "to": "end" }
+        ]
+      },
+      {
+        "id": "blue_hint",
+        "speaker": "queen_elera",
+        "text": "The wind brought him—it wasn’t he who brought the wind. When truth aligns, you’ll understand.",
+        "outs": [
+          { "text": "I’ll make sure they’re heard.", "to": "end" }
+        ]
+      },
+      {
+        "id": "pre_final",
+        "speaker": "queen_elera",
+        "text": "When every proof is in place, go to the Heart’s Greenhouse: Corona. Share a petal of light with the shadow.",
+        "outs": [
+          { "text": "I’ll see it done.", "to": "end", "actions": [ { "name":"setQuestStage","args":["final_corona",1]} ] }
+        ]
+      },
+      {
+        "id": "epilogue",
+        "speaker": "queen_elera",
+        "text": "Well done, Lyra. The candidate’s coronet inclines to you—remember: guard the threshold, and guard mercy.",
+        "onExit": [
+          { "name": "awardTitle", "args": ["QueenCandidate"] },
+          { "name": "giveItem", "args": ["crystal_petal", 1] }
+        ],
+        "outs": [
+          { "text": "Thank you, Elera.", "to": "end" }
+        ]
+      },
+      {
+        "id": "end",
+        "type": "end"
+      }
+    ]
+  }
+  

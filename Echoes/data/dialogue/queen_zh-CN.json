@@ -1,0 +1,222 @@
+{
+    "start": "branch_return",
+    "nodes": [
+      {
+        "id": "intro",
+        "speaker": "queen_elera",
+        "text": "欢迎你降生到精灵世界……向日葵之子。",
+        "onEnter": [
+          { "name": "playSfx", "args": ["ui","blip"] },
+          { "name": "fadeInBgm", "args": ["garden_theme", 1.5] }
+        ],
+        "outs": [
+          { "text": "你是谁？这里是哪里？", "to": "who_where" },
+          { "text": "我……叫什么名字？", "to": "name_give" },
+          { "text": "我已经准备好了。", "to": "mission_pitch" }
+        ]
+      },
+      {
+        "id": "who_where",
+        "speaker": "queen_elera",
+        "text": "我是艾拉，心钥精灵的女王。这里是我的花园——精灵诞生的门廊。",
+        "onExit": [
+          { "name": "learnNpcName", "args": ["queen_elera", "艾拉女王"] },
+          { "name": "playSfx", "args": ["ui","blip"] }
+        ],
+        "outs": [
+          { "text": "那我从何而来？", "to": "origin_sunflower" },
+          { "text": "精灵的职责是什么？", "to": "duty" }
+        ]
+      },
+      {
+        "id": "origin_sunflower",
+        "speaker": "queen_elera",
+        "text": "当人类第一次拥有情感，一粒种子便在'心'中扎根。向日葵为你绽放，也为你点亮了名字。",
+        "outs": [
+          { "text": "名字……", "to": "name_give" },
+          { "text": "我应该做什么？", "to": "mission_pitch" },
+          { "text": "我想知道更多关于精灵的世界。", "to": "about_world" }
+        ]
+      },
+      {
+        "id": "name_give",
+        "speaker": "queen_elera",
+        "text": "从今往后，你叫——莉娅（Lyra）。像一首温柔的乐曲，带来和谐。",
+        "onExit": [
+          { "name": "setFlag", "args": ["named_lyra", true] },
+          { "name": "playSfx", "args": ["ui","chime"] }
+        ],
+        "outs": [
+          { "text": "谢谢你，女王陛下。", "to": "duty" },
+          { "text": "我能再了解精灵的世界吗？", "to": "about_world" }
+        ]
+      },
+      {
+        "id": "about_world",
+        "speaker": "queen_elera",
+        "text": "人类的‘心’像层层风壳包裹的星体：外壳、精神、灵魂，最深处居住着‘自我’。",
+        "outs": [
+          { "text": "如何进入他们的‘心’？", "to": "how_enter" },
+          { "text": "‘自我’受伤会怎样？", "to": "about_self" }
+        ]
+      },
+      {
+        "id": "how_enter",
+        "speaker": "queen_elera",
+        "text": "在我们的眼里，人类胸前都有一处漩涡。你需找到他们的‘念’，将之化作钥匙，开启心门。",
+        "outs": [
+          { "text": "‘念’是什么？", "to": "about_nian" },
+          { "text": "我愿意尝试。", "to": "mission_pitch" }
+        ]
+      },
+      {
+        "id": "about_self",
+        "speaker": "queen_elera",
+        "text": "当‘自我’被封闭，便成空躯；当念归位，壳落色回——人也会重新看见世界。",
+        "outs": [
+          { "text": "那我能如何帮助？", "to": "mission_pitch" }
+        ]
+      },
+      {
+        "id": "about_nian",
+        "speaker": "queen_elera",
+        "text": "‘念’是忘不掉的执着与渴望，触碰它会看见记忆。把‘念’带回空躯，皮壳便会脱落。",
+        "outs": [
+          { "text": "我准备好了。", "to": "mission_pitch" },
+          { "text": "还有什么需要注意？", "to": "caution" }
+        ]
+      },
+      {
+        "id": "caution",
+        "speaker": "queen_elera",
+        "text": "记住：治愈不是驱逐情绪，而是为它安放位置。别让技术与力量越过阈值。",
+        "outs": [
+          { "text": "我会谨记。", "to": "mission_pitch" }
+        ]
+      },
+      {
+        "id": "duty",
+        "speaker": "queen_elera",
+        "text": "精灵以人类的喜悦为养，也以他们的伤痛为课题。你的项链会暂存‘念’，请善用。",
+        "outs": [
+          { "text": "请派我第一个任务。", "to": "mission_pitch" },
+          { "text": "我想再看看花园。", "to": "end" }
+        ]
+      },
+      {
+        "id": "mission_pitch",
+        "speaker": "queen_elera",
+        "text": "去心语村。那里有个孩子叫艾丹，他的母亲菲奥娜多年沉默。先帮他，再理解她。",
+        "onExit": [
+          { "name": "setQuestStage", "args": ["main_ethan", 1] },
+          { "name": "addMapMarker", "args": ["village", "心语村"] }
+        ],
+        "outs": [
+          { "text": "出发。", "to": "sendoff" },
+          { "text": "关于他们，还有线索吗？", "to": "hint_family" }
+        ]
+      },
+      {
+        "id": "hint_family",
+        "speaker": "queen_elera",
+        "text": "风会带来答案，也会放大噪声。别被‘咒’的故事迷惑——去倾听他们的心跳与风铃。",
+        "outs": [
+          { "text": "我会用心听。", "to": "sendoff" }
+        ]
+      },
+      {
+        "id": "sendoff",
+        "speaker": "queen_elera",
+        "text": "愿向日葵为你照亮回家的路。若迷惘，回到花园找我。",
+        "onExit": [
+          { "name": "playSfx", "args": ["ui","confirm"] },
+          { "name": "giveItem", "args": ["sun_petal", 1] }
+        ],
+        "outs": [
+          { "text": "再会。", "to": "end" }
+        ]
+      },
+      {
+        "id": "branch_return",
+        "type": "auto",
+        "outs": [
+          { "to": "return_first", "when": [ { "name": "flag", "args": ["main_ethan_completed"] } ] },
+          { "to": "return_mid", "when": [ { "name": "questStageAtLeast", "args": ["main_ethan", 1] } ] },
+          { "to": "return_general", "when": [ { "name": "flag", "args": ["named_lyra"] } ] },
+          { "to": "intro" }
+        ]
+      },
+      {
+        "id": "return_general",
+        "speaker": "queen_elera",
+        "text": "莉娅，你回来了。花园永远为你开放。有什么需要帮助的吗？",
+        "outs": [
+          { "text": "我想重新听听任务说明。", "to": "mission_pitch" },
+          { "text": "告诉我更多关于精灵世界的事。", "to": "about_world" },
+          { "text": "我只是想看看花园。", "to": "end" }
+        ]
+      },
+      {
+        "id": "return_mid",
+        "speaker": "queen_elera",
+        "text": "做得好，莉娅。你已听见风里的犹疑了吗？继续追随那条声线……",
+        "outs": [
+          { "text": "我需要指引。", "to": "hint_rowan" },
+          { "text": "我会继续。", "to": "end" }
+        ]
+      },
+      {
+        "id": "hint_rowan",
+        "speaker": "queen_elera",
+        "text": "去找罗安。他的沉默里夹着纸页的响声——把那些纸拼起来，风会自己开口。",
+        "onExit": [
+          { "name": "setQuestStage", "args": ["rowan_truth", 1] }
+        ],
+        "outs": [
+          { "text": "明白。", "to": "end" }
+        ]
+      },
+      {
+        "id": "return_first",
+        "speaker": "queen_elera",
+        "text": "你把‘念’带回了空躯——很好。下一步，不是审判，而是让悲伤也有位置。",
+        "outs": [
+          { "text": "你在暗示蓝色精灵？", "to": "blue_hint" },
+          { "text": "我会记住‘阈值’。", "to": "end" }
+        ]
+      },
+      {
+        "id": "blue_hint",
+        "speaker": "queen_elera",
+        "text": "风把他带来，不是他带来风。等真相合拢，你会懂我的意思。",
+        "outs": [
+          { "text": "我会让他们被听见。", "to": "end" }
+        ]
+      },
+      {
+        "id": "pre_final",
+        "speaker": "queen_elera",
+        "text": "当一切证据拼起，去心之温室·日冕。将光分一瓣给影。",
+        "outs": [
+          { "text": "我会去完成它。", "to": "end", "actions": [ { "name":"setQuestStage","args":["final_corona",1]} ] }
+        ]
+      },
+      {
+        "id": "epilogue",
+        "speaker": "queen_elera",
+        "text": "做得好，莉娅。候选的花冠向你低头——记住：守住阈值，也守住怜悯。",
+        "onExit": [
+          { "name": "awardTitle", "args": ["QueenCandidate"] },
+          { "name": "giveItem", "args": ["crystal_petal", 1] }
+        ],
+        "outs": [
+          { "text": "谢谢你，艾拉。", "to": "end" }
+        ]
+      },
+      {
+        "id": "end",
+        "type": "end"
+      }
+    ]
+  }
+  

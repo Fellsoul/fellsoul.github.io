@@ -1,0 +1,52 @@
+{
+    "start": "intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "speaker": "npc_oldman",
+        "text": "旅行者，终于等到你了。",
+        "onEnter": [ { "name": "playSfx", "args": ["ui","blip"] } ],
+        "outs": [
+          { "text": "你认识我？", "to": "branch_meet" },
+          { "text": "我没空，先走了。", "to": "end", "actions":[{"name":"setFlag","args":["rude",true]}] }
+        ]
+      },
+      {
+        "id": "branch_meet",
+        "type": "auto",
+        "outs": [
+          { "to": "met_before", "when": [ { "name":"flag", "args":["met_npc"] } ] },
+          { "to": "first_meet" }
+        ]
+      },
+      {
+        "id": "first_meet",
+        "text": "是初次见面吧。请收下这份见面礼。",
+        "onExit": [ { "name":"giveItem", "args":["apple",1] }, { "name":"setFlag", "args":["met_npc",true]} ],
+        "outs": [
+          { "text": "谢谢。", "to": "quest_offer" }
+        ]
+      },
+      {
+        "id": "met_before",
+        "text": "又见面了。你看起来更强了。",
+        "outs": [
+          { "text": "有任务给我吗？", "to": "quest_offer" },
+          { "text": "再见。", "to": "end" }
+        ]
+      },
+      {
+        "id": "quest_offer",
+        "text": "去海滩捡 3 个贝壳，我会给你报酬。",
+        "outs": [
+          { "text": "好的。", "to": "end", "actions":[{"name":"setQuestStage","args":["shells",1]}] },
+          { "text": "等会儿吧。", "to": "end" }
+        ]
+      },
+      {
+        "id": "end",
+        "type": "end"
+      }
+    ]
+  }
+  

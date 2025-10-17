@@ -1,0 +1,18 @@
+{
+    "interact.sit": "Sit down",
+    "sit_hint": "Sit down",
+    "interact.talk": "Talk",
+    "talk_hint": "Talk",
+    "interact.open": "Open",
+    "open_hint": "Open",
+    "interact.checkpoint": "Checkpoint",
+    "checkpoint_hint": "Checkpoint",
+    "portal": {
+        "confirmToParadise": "Confirm to Soul Paradise?",
+        "confirmToLevel1": "Confirm to Ethan's Wind?",
+        "confirmToQueen": "Confirm to Sprite Garden?"
+    },
+    "names":{
+        "elera": "Elera"
+    }
+}

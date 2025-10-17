@@ -1,0 +1,15 @@
+{
+    "interact.sit": "坐下",
+    "sit_hint": "坐下",
+    "interact.talk": "交谈",
+    "talk_hint": "交谈",
+    "interact.open": "打开",
+    "open_hint": "打开",
+    "menuSlideDirection": "left",
+    "interact.checkpoint": "检查点",
+    "checkpoint_hint": "检查点",
+    "portal": {
+        "confirm": "确认前往心灵彼岸?",
+        "confirmToLevel1": "前往关卡1?"
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "scenes": {
+    "start": {
+      "bgm": {
+        "assetId": 256158056,
+        "volume": 0.7,
+        "crossfade": 0.8
+      },
+      "ambient": {
+        "assetId": 256158102,
+        "volume": 1
+      }
+    },
+    "queen": {
+      "bgm": {
+        "assetId": 256162207,
+        "volume": 0.5,
+        "crossfade": 0.8
+      },
+      "ambient": {
+        "assetId": 256162227,
+        "volume": 0.5
+      }
+    },
+    "level1": {
+      "bgm": {
+        "assetId": 256162377,
+        "volume": 0.4,
+        "crossfade": 0.8
+      },
+      "ambient": {
+        "assetId": 256162376,
+        "volume": 0.1
+      }
+    }
+  },
+  "version": "1.0.0",
+  "description": "场景音频配置 - 使用Asset ID而非名称，避免查找开销"
+}

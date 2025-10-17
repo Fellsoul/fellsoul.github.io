@@ -1,0 +1,87 @@
+{
+    "welcome": {
+      "typeLines": [
+        {
+          "text": "Long, long ago, there walked many bipedal beings of remarkable intellect, called humans.",
+          "clear": true,
+          "bold": true,
+          "size": 40,
+          "imageName": "prologue_welcome_1.png",
+          "clearImage": false
+        },
+        {
+          "text": "They had food, shelter, and companions. A life of plenty brought them a feeling of joy called happiness.",
+          "clear": true,
+          "imageName": "prologue_welcome_2.png",
+          "clearImage": false
+        },
+        {
+          "text": "Whenever humans felt happiness from the depths of their hearts, the seed of a Key-Spirit quietly took root within.",
+          "clear": true,
+          "imageName": "prologue_welcome_3.png",
+          "clearImage": false
+        },
+        {
+          "text": "We grew by drawing on their positive feelings—the happier they were, the faster we grew.",
+          "clear": true,
+          "imageName": "prologue_welcome_4.png",
+          "clearImage": false
+        },
+        {
+          "text": "But as the ages changed, human feelings grew more and more \"faint.\"",
+          "clear": true,
+          "color": "#666666",
+          "imageName": "prologue_welcome_5.png",
+          "clearImage": false
+        },
+        {
+          "text": "\"Faint\" meant two things: life turned plain, and the taste of joy we sipped became faint as well.",
+          "clear": true,
+          "color": "#666666",
+          "size": 30,
+          "imageName": "prologue_welcome_6.png",
+          "clearImage": false
+        },
+        {
+          "text": "Study, work, and daily life—these, in their words, became more important than happiness.",
+          "clear": true,
+          "imageName": "prologue_welcome_7.png",
+          "clearImage": false
+        },
+        {
+          "text": "In the end, they became the fuse for a great calamity.",
+          "clear": true,
+          "imageName": "prologue_welcome_8.png",
+          "clearImage": false
+        },
+        {
+          "text": "After that day, the survivors resolved to rebuild a joyful homeland upon the ruins.",
+          "clear": true,
+          "imageName": "prologue_welcome_9.png",
+          "clearImage": false
+        },
+        {
+          "text": "And we spirits, with the power to explore hearts, entered humans' inner worlds to find their hidden keys.",
+          "clear": true,
+          "imageName": "prologue_welcome_10.png",
+          "clearImage": false
+        },
+        {
+          "text": "You, as the new generation of spirits, must unlock even more hearts.",
+          "bold": true,
+          "clear": true,
+          "size": 42,
+          "imageName": "prologue_welcome_11.png",
+          "clearImage": true
+        }
+      ]
+    },
+    "welcomeOptions": {
+        "defaultCharMs": 140,
+        "lineGapMs": 2000,
+        "enableDebugLog": true,
+        "bgHexColor": "#FCFBDB",
+        "bgFadeOutMs": 1000,
+        "autoFadeOut": true
+      }
+  }

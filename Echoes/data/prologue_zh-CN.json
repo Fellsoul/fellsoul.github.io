@@ -1,0 +1,256 @@
+{
+  "welcome": {
+    "typeLines": [
+      {
+        "text": "久远之前——\n双足的思者行于大地，名为\"人类\"。",
+        "bold": true,
+        "clear": true,
+        "size": 40,
+        "imageName": "prologue_welcome_1.png",
+        "clearImage": true
+      },
+      {
+        "text": "他们有粮、有屋、有同伴；\n丰盈在胸口化作一束温润之光，名为\"幸福\"。",
+        "clear": true,
+        "imageName": "prologue_welcome_2.png",
+        "clearImage": true
+      },
+      {
+        "text": "当由衷的笑意在心底漾开时，\n我们——心钥的种子——便在静默中落地生根。",
+        "clear": true,
+        "imageName": "prologue_welcome_3.png",
+        "clearImage": true
+      },
+      {
+        "text": "我们饮他们的欢喜而成长；\n人心越明亮，我们生长越迅疾。",
+        "clear": true,
+        "imageName": "prologue_welcome_4.png",
+        "clearImage": true
+      },
+      {
+        "text": "然而时代的风声，\n吹\"淡\"了情感。",
+        "clear": true,
+        "color": "#666666",
+        "imageName": "prologue_welcome_5.png",
+        "clearImage": true
+      },
+      {
+        "text": "\"淡\"，既是日子的平淡，\n也是我们舌尖尝到的甜意在变\"淡\"。",
+        "clear": true,
+        "color": "#666666",
+        "size": 30,
+        "imageName": "prologue_welcome_5.png",
+        "clearImage": false
+      },
+      {
+        "text": "学习、工作、生活——\n在他们的口中，比\"幸福\"更重。",
+        "clear": true,
+        "color": "#000000",
+        "size": 42,
+        "imageName": "prologue_welcome_6.png",
+        "clearImage": true
+      },
+      {
+        "text": "沉重相叠，\n终于点燃那场不可避免的劫火。",
+        "clear": true,
+        "imageName": "prologue_welcome_7.png",
+        "clearImage": true
+      },
+      {
+        "text": "劫后余灰之上，\n幸存的人类誓言重筑追寻喜悦的家园。",
+        "clear": true,
+        "imageName": "prologue_welcome_8.png",
+        "clearImage": true
+      },
+      {
+        "text": "而我们精灵，潜入心海，\n去寻找那把久埋的钥匙。",
+        "clear": true,
+        "imageName": "prologue_welcome_9.png",
+        "clearImage": true
+      },
+      {
+        "text": "如今，你们——新生的精灵——\n将去开启更多人类",
+        "bold": true,
+        "clear": true,
+        "size": 60,
+        "imageName": "prologue_welcome_10.png",
+        "clearImage": true
+      },
+      {
+        "text": "内 心 的 锁。",
+        "clear": true,
+        "bold": true,
+        "size": 120,
+        "color": "#ff461f",
+        "imageName": "prologue_welcome_10.png",
+        "clearImage": false
+      }
+    ]
+  },
+    "ethanShell": {
+      "typeLines": [
+        {
+          "text": "Ethan之风·外壳——\n九岁的他，把可靠挂在眉梢。",
+          "bold": true,
+          "clear": true,
+          "size": 40,
+          "imageName": "prologue_shell_1.png",
+          "clearImage": true
+        },
+        {
+          "text": "清晨的草坡与木桥，\n是他练就步伐与勇气的地方。",
+          "clear": true,
+          "imageName": "prologue_shell_2.png",
+          "clearImage": true
+        },
+        {
+          "text": "他帮大人搬柴、喂羊、修风车，\n把“该做的事”一件件装进口袋。",
+          "clear": true,
+          "imageName": "prologue_shell_3.png",
+          "clearImage": true
+        },
+        {
+          "text": "风从山谷来，\n把小小的心跳吹成鼓点。",
+          "clear": true,
+          "imageName": "prologue_shell_4.png",
+          "clearImage": true
+        },
+        {
+          "text": "外表的他——稳当、懂事、向前跑；\n可真正的目的地，在风更深的地方。",
+          "clear": true,
+          "imageName": "prologue_shell_5.png",
+          "clearImage": true
+        }
+      ]
+    },
+    "ethanShellOptions": {
+      "defaultCharMs": 50,
+      "lineGapMs": 300,
+      "bgHexColor": "#FCFBDB",
+      "bgFadeOutMs": 1000,
+      "autoFadeOut": true
+    },
+    "ethanMind": {
+      "typeLines": [
+        {
+          "text": "Ethan之风·心理——\n风过耳畔，思绪开始结网。",
+          "bold": true,
+          "clear": true,
+          "size": 40,
+          "imageName": "prologue_mind_1.png",
+          "clearImage": true
+        },
+        {
+          "text": "“要更可靠一点。”\n他在心里轻声给自己加码。",
+          "clear": true,
+          "imageName": "prologue_mind_2.png",
+          "clearImage": true
+        },
+        {
+          "text": "学校、家务、承诺像风铃成排，\n每一下摇响，都是一份责任的回声。",
+          "clear": true,
+          "imageName": "prologue_mind_3.png",
+          "clearImage": true
+        },
+        {
+          "text": "可当他想起母亲的沉默，\n风声忽然空了半拍。",
+          "clear": true,
+          "color": "#666666",
+          "imageName": "prologue_mind_4.png",
+          "clearImage": true
+        },
+        {
+          "text": "他对自己说：\n“先把大家照顾好，再去等她开口。”",
+          "clear": true,
+          "imageName": "prologue_mind_5.png",
+          "clearImage": true
+        },
+        {
+          "text": "这份念想，被风妥帖地\n叠好，放进胸前。",
+          "clear": true,
+          "imageName": "prologue_mind_6.png",
+          "clearImage": true
+        }
+      ]
+    },
+    "ethanSoul": {
+      "typeLines": [
+        {
+          "text": "Ethan之风·灵魂——\n风口更陡，云影更近。",
+          "bold": true,
+          "clear": true,
+          "size": 40,
+          "imageName": "prologue_soul_1.png",
+          "clearImage": true
+        },
+        {
+          "text": "不记得的意外，像被遮住的山路，\n只剩石子在鞋底里轻轻作痛。",
+          "clear": true,
+          "imageName": "prologue_soul_2.png",
+          "clearImage": true
+        },
+        {
+          "text": "他追逐一束看不见的光，\n也被一阵误会的风追逐。",
+          "clear": true,
+          "imageName": "prologue_soul_3.png",
+          "clearImage": true
+        },
+        {
+          "text": "“别让风替我做答案。”\n他咬紧牙关，从断桥跃向下一块云。",
+          "clear": true,
+          "imageName": "prologue_soul_4.png",
+          "clearImage": true
+        },
+        {
+          "text": "只要再向前一步，\n心门的轮廓，就会随风显形。",
+          "clear": true,
+          "imageName": "prologue_soul_5.png",
+          "clearImage": true
+        }
+      ]
+    },
+    "ethanSelf": {
+      "typeLines": [
+        {
+          "text": "Ethan之风·自我——\n温室在风停处亮起一盏灯。",
+          "bold": true,
+          "clear": true,
+          "size": 40,
+          "imageName": "prologue_self_1.png",
+          "clearImage": true
+        },
+        {
+          "text": "木陀螺、纸飞机、合影的边角，\n一件件回到它们该在的位置。",
+          "clear": true,
+          "imageName": "prologue_self_2.png",
+          "clearImage": true
+        },
+        {
+          "text": "“妈妈会好起来的。”\n他说，像把钥匙轻轻推进锁孔。",
+          "clear": true,
+          "imageName": "prologue_self_3.png",
+          "clearImage": true
+        },
+        {
+          "text": "当拥抱发生，颜色回流，\n风不再嘶喊，只在屋脊上歌唱。",
+          "clear": true,
+          "imageName": "prologue_self_4.png",
+          "clearImage": true
+        },
+        {
+          "text": "而他也明白：\n可靠，不是扛起全部，而是学会与风并肩。",
+          "clear": true,
+          "imageName": "prologue_self_5.png",
+          "clearImage": true
+        }
+      ]
+    },
+    "welcomeOptions": {
+      "defaultCharMs": 140,
+      "lineGapMs": 2000,
+      "enableDebugLog": false,
+      "bgHexColor": "#FCFBDB",
+      "bgFadeOutMs": 1000,
+      "autoFadeOut": true
+    }    
+}

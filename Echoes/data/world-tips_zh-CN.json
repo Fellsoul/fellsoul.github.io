@@ -1,0 +1,78 @@
+{
+  "level": {
+    "ethans_wind": {
+      "entrance": {
+        "welcome": "欢迎来到艾丹之风",
+        "explore": "探索这片神秘的土地"
+      },
+      "shell": {
+        "grass_slopes": "微风轻抚草坡",
+        "steady_steps": "稳健的步伐",
+        "wind_guide": "让风指引方向"
+      },
+      "mind": {
+        "wind_thoughts": "风起时心念涌动",
+        "reliable_pocket": "可靠装进口袋",
+        "inner_strength": "内心的力量"
+      },
+      "soul": {
+        "wind_back": "站在风口之背",
+        "own_voice": "用自己的声音回答",
+        "soul_freedom": "灵魂的自由"
+      },
+      "self": {
+        "greenhouse": "温室中的回响",
+        "walk_with_wind": "与风并肩而行",
+        "find_self": "找到真正的自己"
+      }
+    },
+    "mind_shore": {
+      "entrance": {
+        "peaceful": "心灵的彼岸",
+        "reflection": "静心反思的地方"
+      },
+      "sanctuary": {
+        "safe_haven": "安全的港湾",
+        "inner_peace": "内心的宁静",
+        "soul_rest": "灵魂的栖息地"
+      }
+    }
+  },
+  "interaction": {
+    "examine": {
+      "ancient_stone": "古老的石头",
+      "mysterious_symbol": "神秘的符号",
+      "forgotten_memory": "遗忘的记忆"
+    },
+    "collect": {
+      "wind_essence": "风之精华",
+      "memory_fragment": "记忆碎片",
+      "soul_crystal": "灵魂水晶"
+    }
+  },
+  "environment": {
+    "weather": {
+      "gentle_breeze": "微风习习",
+      "strong_wind": "狂风呼啸",
+      "calm_air": "空气宁静"
+    },
+    "atmosphere": {
+      "mystical": "神秘氛围",
+      "peaceful": "宁静祥和",
+      "energetic": "充满活力"
+    }
+  },
+  "tutorial": {
+    "movement": {
+      "wasd": "使用WASD移动",
+      "mouse_look": "鼠标控制视角",
+      "space_jump": "空格键跳跃",
+      "combination": "WASD移动 鼠标控制视角 空格跳跃 / 摇杆移动 拖动屏幕控制视角 右侧按钮跳跃"
+    },
+    "interaction": {
+      "f_interact": "按G键/回档按钮互动",
+      "examine_objects": "检查物品",
+      "collect_items": "收集道具"
+    }
+  }
+}

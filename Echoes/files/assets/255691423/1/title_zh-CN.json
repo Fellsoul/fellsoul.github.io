@@ -1,0 +1,34 @@
+{
+  "level": {
+    "mind_shore": {
+      "entrance": "心灵彼岸"
+    },
+    "ethans_wind": {
+      "outer": "艾丹之风",
+      "shell": {
+        "title": "外壳：草坡与微风",
+        "subtitle": "把稳当的步伐交给风"
+      },
+      "mind": {
+        "title": "心理：风起心念",
+        "subtitle": "把可靠装进口袋"
+      },
+      "soul": {
+        "title": "灵魂：风口之背",
+        "subtitle": "别让风替我作答"
+      },
+      "self": {
+        "title": "自我：温室回响",
+        "subtitle": "学会与风并肩"
+      }
+    }
+  },
+  "story": {
+    "chapter1": {
+      "title": "第一章：觉醒"
+    }
+  },
+  "Queen": {
+    "entrance": "精灵花园"
+  }
+}

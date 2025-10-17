@@ -1,0 +1,117 @@
+{
+  "level": {
+    "ethans_wind": {
+      "entrance": {
+        "welcome": "欢迎来到艾丹之风",
+        "explore": "沿雏菊路标前行，风会把路指给你"
+      },
+      "shell": {
+        "first_checkpoint": "抵达向日葵存档点",
+        "press_g_hint": "遇险时按 G（或回档按钮）立即回到最近的向日葵",
+        "follow_daisies": "跟随雏菊与风铃的方向",
+        "learn_jump": "在木桥与草坡上练习跳跃与二段跳（若已解锁）"
+      },
+      "mind": {
+        "listen_wind": "倾听风声里的节拍，按节奏通过风带",
+        "pocket_reliable": "把‘可靠’装进口袋：优先照顾身边的小目标",
+        "echo_pad": "踩在回声踏板上，延迟出现的花瓣平台会接住你"
+      },
+      "soul": {
+        "brace_gale": "风口更陡，注意横风；贴边前进",
+        "own_voice": "别让风替你作答：选择自己的路线",
+        "mini_chase": "追逐开始时保持节奏，失败可用 G 回到最近微存点"
+      },
+      "self": {
+        "greenhouse": "温室在前：把念一件件放回原位",
+        "walk_with_wind": "学会与风并肩，而不是被它推着走",
+        "find_self": "心门将被开启：艾丹的自我在等你"
+      }
+    },
+    "mind_shore": {
+      "entrance": {
+        "peaceful": "心灵的彼岸",
+        "reflection": "从这里学会倾听，再出发"
+      },
+      "sanctuary": {
+        "safe_haven": "安全的港湾",
+        "inner_peace": "当心跳太快，就在这里深呼吸",
+        "soul_rest": "灵魂的栖息地"
+      }
+    }
+  },
+
+  "guide": {
+    "ethans_wind": {
+      "start": [
+        "去精灵花园找艾拉女王，领取向日葵花瓣项链。",
+        "离开花园，进入『艾丹之风』。雏菊与风铃即是路标。"
+      ],
+      "checkpoints": [
+        "看到向日葵图腾时靠近即可存档；成功时花盘会发光。",
+        "按 G（或回档按钮）立刻回到最近的向日葵存档点。"
+      ],
+      "mechanics": [
+        "风带：进入时身体会被推/拉/上升，顺势跳跃更远。",
+        "回声踏板：落脚后 1.2 秒生成一片花瓣平台，持续约 2 秒。",
+        "蒲公英气流：把纸飞机丢入上升气流，可开启前方木桥机关。"
+      ],
+      "objectives": [
+        "收集『风之精华』×3（沿主路的小光团）。",
+        "找回念『纸飞机』并送入上升气流，打开山腰木桥。",
+        "抵达山脊心门处，与莉娅一起唤醒艾丹的勇气。"
+      ],
+      "reminders": [
+        "跌落不惩罚生命，但会消耗时间；善用 G 回档练节奏。",
+        "遇到横风时贴近迎风侧的岩壁，跳跃更稳。",
+        "别忘了在每个新区域先触发向日葵，以免长距离返回。"
+      ]
+    }
+  },
+
+  "interaction": {
+    "examine": {
+      "ancient_stone": "风刻石：上面刻着 f₀ = 432 的记号",
+      "mysterious_symbol": "心钥纹样：似乎与心门有关",
+      "forgotten_memory": "遗忘的记忆：依稀是母子的剪影"
+    },
+    "collect": {
+      "wind_essence": "风之精华",
+      "memory_fragment": "记忆碎片",
+      "soul_crystal": "灵魂水晶"
+    }
+  },
+
+  "environment": {
+    "weather": {
+      "gentle_breeze": "微风习习",
+      "strong_wind": "狂风呼啸",
+      "calm_air": "空气宁静"
+    },
+    "atmosphere": {
+      "mystical": "神秘氛围",
+      "peaceful": "宁静祥和",
+      "energetic": "充满活力"
+    }
+  },
+
+  "tutorial": {
+    "movement": {
+      "wasd": "使用WASD移动",
+      "mouse_look": "鼠标控制视角",
+      "space_jump": "空格键跳跃",
+      "combination_pc": "WASD移动 按住Shift跑步 鼠标控制视角 空格跳跃",
+      "combination_mobile": "摇杆移动 拖动屏幕控制视角 右侧按钮跳跃"
+    },
+    "interaction": {
+      "g_respawn_pc": "按 G：回到最近的向日葵存档点",
+      "g_respawn_mobile": "按回档按钮：回到最近的向日葵存档点",
+      "f_interact": "靠近物体按 F 互动（开关、读取风刻石）",
+      "examine_objects": "检查物品获取线索",
+      "collect_items": "收集道具推进机关"
+    },
+    "hints": {
+      "climb_up": "向上吧 直至''自我''",
+      "stay_focus": "保持专注，不要气馁"
+    }
+  }
+}

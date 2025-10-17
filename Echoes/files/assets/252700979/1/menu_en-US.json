@@ -1,0 +1,231 @@
+{
+  "buttons": {
+    "start": "Start",
+    "continue": "Continue",
+    "newGame": "New Game",
+    "loadGame": "Load Game",
+    "settings": "Settings",
+    "back": "Back",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "exit": "Exit",
+    "credits": "Credits",
+    "language": "Language",
+    "audio": "Audio",
+    "video": "Video",
+    "controls": "Controls",
+    "apply": "Apply",
+    "reset": "Reset"
+  },
+  "panels": {
+    "title": {
+      "main": "EchoSoul",
+      "settings": "Settings",
+      "audio": "Audio",
+      "video": "Video",
+      "controls": "Controls",
+      "language": "Language",
+      "credits": "Credits"
+    },
+    "settings": {
+      "audio": {
+        "title": "Audio"
+      },
+      "video": {
+        "title": "Video"
+      },
+      "controls": {
+        "title": "Controls"
+      },
+      "language": {
+        "title": "Language"
+      }
+    },
+    "clearProgress": {
+      "button": "Clear Current Progress",
+      "title": "Confirm Clear Progress",
+      "message": "This will clear all game progress and dialogue records.\nThis action cannot be undone. Are you sure?\nYou have to reload the game after clearing the locale.",
+      "confirm": "Confirm",
+      "cancel": "Cancel"
+    },
+    "subtitles": {
+      "masterVolume": "Master Volume",
+      "musicVolume": "Music Volume",
+      "sfxVolume": "SFX Volume",
+      "voiceVolume": "Voice Volume",
+      "resolution": "Resolution",
+      "fullscreen": "Fullscreen",
+      "vSync": "V-Sync",
+      "brightness": "Brightness",
+      "mouseSensitivity": "Mouse Sensitivity",
+      "invertY": "Invert Y-Axis",
+      "language": "Select Language"
+    }
+  },
+  "tooltips": {
+    "start": "Begin a new journey",
+    "continue": "Resume from your last checkpoint",
+    "newGame": "Start a brand new adventure",
+    "loadGame": "Load a previously saved game",
+    "settings": "Adjust graphics, audio and controls",
+    "exit": "Exit the game",
+    "apply": "Apply current settings",
+    "reset": "Reset to defaults"
+  },
+  "dialogs": {
+    "quitConfirm": {
+      "title": "Quit Game?",
+      "message": "Are you sure you want to exit EchoSoul?",
+      "confirm": "Quit",
+      "cancel": "Cancel"
+    },
+    "resetSettings": {
+      "title": "Reset Settings",
+      "message": "Restore all settings to default values?",
+      "confirm": "Reset",
+      "cancel": "Cancel"
+    },
+    "applySettings": {
+      "title": "Apply Changes",
+      "message": "Apply the current changes?",
+      "confirm": "Apply",
+      "cancel": "Cancel"
+    }
+  },
+  "labels": {
+    "on": "On",
+    "off": "Off",
+    "yes": "Yes",
+    "no": "No",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "language_enUS": "English",
+    "language_zhCN": "Chinese"
+  },
+  "collectibles": {
+    "title": "Collectibles",
+    "empty": "No collectibles yet",
+    "location": "Location",
+    "foundAt": "Found at",
+    "unknown": "Unknown"
+  },
+  "story": {
+    "title": "Story Progress",
+    "empty": "No story records yet",
+    "completed": "Completed",
+    "play": "▶ Play",
+    "welcome": "Welcome Prologue",
+    "ethanShell": "Ethan's Shell",
+    "level": "Level"
+  },
+  "clearRecord": {
+    "title": "Clear Records",
+    "empty": "No clear records yet",
+    "scene": "Scene",
+    "time": "Time",
+    "date": "Date"
+  },
+  "achievements": {
+    "title": "Achievements",
+    "progress": "Progress",
+    "unlocked": "Unlocked",
+    "locked": "Locked",
+    "first_step": "First Step",
+    "explorer": "Explorer",
+    "collector": "Collector",
+    "speedrunner": "Speedrunner",
+    "perfectionist": "Perfectionist"
+  },
+  "worldCompletion": {
+    "title": "World Completion",
+    "scenes": "Scenes Completed",
+    "collectibles": "Collectibles Found",
+    "checkpoints": "Checkpoints Reached",
+    "total": "Total Completion"
+  },
+  "redemption": {
+    "title": "Redemption",
+    "totalRespawns": "Total Respawns",
+    "hint": "Every death is a trial on the path to redemption",
+    "byScene": "Respawns by Scene",
+    "times": "times"
+  },
+  "heartKey": {
+    "title": "Heart Key Gallery",
+    "empty": "No Heart Keys yet",
+    "hint": "Heart Keys unlock the doors to the soul. Explore the world to find them",
+    "location": "Location Obtained",
+    "obtainedAt": "Obtained At",
+    "unknown": "Unknown"
+  },
+  "help": {
+    "title": "Help",
+    "pc": {
+      "title": "PC Controls",
+      "movement": {
+        "title": "Movement",
+        "wasd": "WASD - Move",
+        "shift": "Shift - Sprint",
+        "space": "Space - Jump",
+        "exit": "Press S or Space in the player view - Exit Menu"
+      },
+      "interaction": {
+        "title": "Interaction",
+        "key": "E - Interact",
+        "description": "Interact with objects and NPCs"
+      },
+      "system": {
+        "title": "System",
+        "respawn": "R - Respawn",
+        "respawnHint": "View total respawn count in Redemption panel",
+        "esc": "ESC - Pause Menu"
+      },
+      "narrative": {
+        "title": "Narrative Playback",
+        "click": "Click - Speed Up Text",
+        "description": "During dialogue or narration, click to accelerate text display"
+      }
+    },
+    "mobile": {
+      "title": "Mobile Controls",
+      "movement": {
+        "title": "Movement",
+        "joystick": "Virtual Joystick - Move",
+        "run": "Sprint Button - Sprint",
+        "jump": "Jump Button - Jump",
+        "exit": "Pull down the joystick in the player view / Press Jump Button - Exit Menu"
+      },
+      "interaction": {
+        "title": "Interaction",
+        "button": "Interact Button - Interact with objects and NPCs"
+      },
+      "system": {
+        "title": "System",
+        "respawn": "Respawn Button - Respawn",
+        "respawnHint": "View total respawn count in Redemption panel"
+      },
+      "narrative": {
+        "title": "Narrative Playback",
+        "hold": "Hold Screen - Speed Up Text",
+        "description": "During dialogue or narration, hold screen to accelerate text display"
+      }
+    }
+  },
+  "Text": {
+    "ButtonMain": "Settings",
+    "ButtonMain1": "Settings",
+    "ButtonMain2": "Appearance",
+    "ButtonMain3": "Prologue",
+    "ButtonMain4": "Help",
+    "ButtonMoai1": "Sardine 1",
+    "ButtonMoai2": "Sardine 2",
+    "ButtonMoai3": "Sardine +",
+    "SardineInfoGroup": "No completion yet",
+    "ButtonTrophy1": "Completion",
+    "ButtonTrophy2": "Achievement",
+    "ButtonFlower1": "World Completion",
+    "ButtonFlower2": "Key Collection",
+    "ButtonFlower3": "Redemption"
+  }
+}

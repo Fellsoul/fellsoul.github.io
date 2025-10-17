@@ -1,0 +1,19 @@
+{
+    "start": "intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "speaker": "npc_oldman",
+        "text": ". . .",
+        "onEnter": [ { "name": "playSfx", "args": ["ui","blip"] } ],
+        "outs": [
+          { "text": "Leave", "to": "end" }
+        ]
+      },
+      {
+        "id": "end",
+        "type": "end"
+      }
+    ]
+  }
+  

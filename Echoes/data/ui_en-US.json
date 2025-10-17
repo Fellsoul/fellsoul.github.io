@@ -1,0 +1,13 @@
+{
+    "interact.sit": "Sit down",
+    "sit_hint": "Sit down",
+    "interact.talk": "Talk",
+    "talk_hint": "Talk",
+    "interact.open": "Open",
+    "open_hint": "Open",
+    "interact.checkpoint": "Checkpoint",
+    "checkpoint_hint": "Checkpoint",
+    "portal": {
+        "confirmToLevel1": "Confirm to Level 1?"
+    }
+}
